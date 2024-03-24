@@ -37,8 +37,15 @@ public class CheckoutSolution {
             }
         }
 
-        if counterA
+        if (counterA % 3 == 0) {
+            checkoutBasketSum -= (counterA/3 * 20);
+        }
+
+        if (counterA % 2 == 0) {
+            checkoutBasketSum -= (counterA/2 * 15);
+        }
         return -1;
     }
 }
+
 
