@@ -1,7 +1,5 @@
 package befaster.solutions.CHK;
 
-import com.sun.corba.se.impl.naming.cosnaming.BindingIteratorImpl;
-
 import java.util.HashMap;
 
 //+------+-------+------------------------+
@@ -39,9 +37,11 @@ public class CheckoutSolution {
             checkoutBasketSum += prices.get(c);
         }
 
+        for ()
         checkoutBasketSum -= (counterA/3 * 20);
         checkoutBasketSum -= (counterB/2 * 15);
         return checkoutBasketSum;
     }
 }
+
 
