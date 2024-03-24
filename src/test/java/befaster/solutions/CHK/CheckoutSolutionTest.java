@@ -3,8 +3,7 @@ package befaster.solutions.CHK;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import static org.hamcrest.JMock1Matchers.equalTo;
-import static org.hamcrest.MatcherAssert.assertThat;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class CheckoutSolutionTest {
 
@@ -17,7 +16,10 @@ public class CheckoutSolutionTest {
 
     @Test
     public void compute_sum() {
-        assertThat(checkout.checkout("AAABBCDDBAADDBB") , equalTo(String.valueOf(430)));
+        //assertEquals(checkout.checkout("AAABBCDDBAADDBB"), 430);
+        assertEquals(checkout.checkout("AAA"), 430);
+
     }
 }
+
 

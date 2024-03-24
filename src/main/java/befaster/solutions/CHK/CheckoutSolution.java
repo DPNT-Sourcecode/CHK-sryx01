@@ -41,11 +41,12 @@ public class CheckoutSolution {
             checkoutBasketSum -= (counterA/3 * 20);
         }
 
-        if (counterA % 2 == 0) {
-            checkoutBasketSum -= (counterA/2 * 15);
+        if (counterB % 2 == 0) {
+            checkoutBasketSum -= (counterB/2 * 15);
         }
-        return -1;
+        return checkoutBasketSum;
     }
 }
+
 
 
