@@ -16,7 +16,7 @@ public class CheckoutSolutionTest {
 
     @Test
     public void compute_sum() {
-        //assertEquals(checkout.checkout("AAABBCDDBAADDBB"), 430);
+        assertEquals(checkout.checkout("AAABBCDDBAADDBB"), 430);
         assertEquals(checkout.checkout("AAA"), 130);
         assertEquals(checkout.checkout("AA"), 100);
         assertEquals(checkout.checkout("BB"), 45);
@@ -25,6 +25,7 @@ public class CheckoutSolutionTest {
 
     }
 }
+
 
 
 
