@@ -41,7 +41,7 @@ public class SendCommandToServer {
      *   |      |   throw new SolutionNotImplementedException()                         |
      *   |  6.  | Deploy to production by typing "deploy".                              |
      *   |  7.  | Observe the output, check for failed requests.                        |
-     *   |  8.  | If passed, go to step 1.                                              |
+     *   |  8.  | If passed, go to step 1.      depl                                        |
      *   +------+-----------------------------------------------------------------------+
      *
      *   You are encouraged to change this project as you please:
@@ -72,3 +72,4 @@ public class SendCommandToServer {
     }
 
 }
+
