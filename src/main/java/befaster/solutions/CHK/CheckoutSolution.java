@@ -1,9 +1,10 @@
 package befaster.solutions.CHK;
 
-import org.eclipse.jgit.diff.ContentSource;
+import org.graalvm.collections.Pair;
 
+import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.Set;
+import java.util.List;
 
 //+------+-------+------------------------+
 //| Item | Price | Special offers         |
@@ -19,13 +20,16 @@ public class CheckoutSolution {
 
     private HashMap<Character, Integer> prices = new HashMap<>();
     private HashMap<Character, Integer> productCount  = new HashMap<>();
-    private HashMap<Character, >
+    private HashMap<Character, List<Pair<Integer, String>>> offers = new HashMap<>();
 
-    private static void initProducts(){
+    private void initProducts(){
         prices.put('A',50);
         prices.put('B',30);
         prices.put('C',20);
         prices.put('D',15);
+
+        
+        offers.put('A', new ArrayList<>(){})
     }
 
     public Integer checkout(String skus) {
@@ -48,6 +52,7 @@ public class CheckoutSolution {
         return checkoutBasketSum;
     }
 }
+
 
 
 
