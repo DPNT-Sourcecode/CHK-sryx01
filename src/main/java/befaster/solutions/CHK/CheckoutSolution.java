@@ -28,8 +28,9 @@ public class CheckoutSolution {
         prices.put('C',20);
         prices.put('D',15);
 
-        
-        offers.put('A', new ArrayList<>(){})
+        List<Pair<Integer, String>> offersA = new ArrayList<>();
+        offersA.add(new Pair<Integer,String>())
+        offers.put('A', new ArrayList<>(){}.)
     }
 
     public Integer checkout(String skus) {
@@ -52,6 +53,7 @@ public class CheckoutSolution {
         return checkoutBasketSum;
     }
 }
+
 
 
 
