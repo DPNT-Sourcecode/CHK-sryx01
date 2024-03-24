@@ -29,7 +29,7 @@ public class CheckoutSolution {
         prices.put('D',15);
 
         List<Pair<Integer, String>> offersA = new ArrayList<>();
-        Pair<Integer, String> pairA = new M
+        Pair<Integer, String> pairA = new MutableP
         //offersA.add()
         //offers.put('A', new ArrayList<>(){}.)
     }
@@ -54,6 +54,7 @@ public class CheckoutSolution {
         return checkoutBasketSum;
     }
 }
+
 
 
 
