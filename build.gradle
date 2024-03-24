@@ -18,7 +18,7 @@ repositories {
 dependencies {
     implementation 'ro.ghionoiu:tdl-client-java:0.26.5'
     implementation 'com.google.code.gson:gson:2.8.9'
-    implementation 'javax.jms:jms:1.1'
+    implementation 'org.apache.geronimo.specs:geronimo-jms_1.1_spec:1.1.1'
 
     testImplementation('org.junit.jupiter:junit-jupiter:5.9.1')
     testImplementation('org.junit.platform:junit-platform-suite:1.8.1')
@@ -61,4 +61,5 @@ jacocoTestReport {
         html.required = false
     }
 }
+
 
