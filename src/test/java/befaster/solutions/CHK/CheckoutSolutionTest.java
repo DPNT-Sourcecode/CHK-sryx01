@@ -14,4 +14,3 @@ public class CheckoutSolutionTest {
 //        assertThat(sum.compute(1, 1), equalTo(2));
 //    }
 }
-
